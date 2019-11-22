@@ -39,6 +39,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
+  gem 'dotenv-rails'
 end
 
 group :development do
@@ -54,4 +55,3 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'line-bot-api'
-gem 'dotenv-rails'
