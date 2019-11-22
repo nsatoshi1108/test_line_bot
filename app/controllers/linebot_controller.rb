@@ -50,14 +50,14 @@ class LinebotController < ApplicationController
               {
                 "type": "message",
                 # Botから送られてきたメッセージに表示される文字列です。
-                "label": "はい",
+                "label": "うほ",
                 # ボタンを押した時にBotに送られる文字列です。
-                "text": "いいえ"
+                "text": "うほ"
               },
               {
                 "type": "message",
-                "label": "YES",
-                "text": "YES"
+                "label": "UHO",
+                "text": "UHO"
               }
           ]
       }
